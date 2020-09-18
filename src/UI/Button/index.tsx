@@ -1,6 +1,5 @@
-import * as rebass from "rebass";
+import { Button, ButtonProps as RBButtonProps } from 'rebass';
 
-export type ButtonProps = rebass.ButtonProps;
+export type ButtonProps = RBButtonProps;
 
-const Button = rebass.Button;
 export default Button;
