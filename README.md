@@ -1,8 +1,23 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with typescript version of [Create React App](https://github.com/facebook/create-react-app).
+
+## Additional installed
+- Rebass and rebas types (forms, preents, core)
+- Wrapped Rebass components in UI folder
+- Installed React Router Dom
+- Installed emotions and jest plugin for emotions
+- Installed and configured styleguide
+
+The purpose of this repo is make start point for the next project based on ReBass UI lib  
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `yarn ui`
+Open [http://localhost:6060](http://localhost:6060) to view UI definitions in the browser. It runs Style Guide server
+
+### `yarn ui:build`
+Build UI documentations in the folder `styleguide`
 
 ### `yarn start`
 
