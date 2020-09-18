@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Switch Default snapshot 1`] = `
+.emotion-1 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+  padding: 0;
+  width: 40px;
+  height: 24px;
+  color: #07c;
+  background-color: transparent;
+  border: 1px solid;
+  border-color: #07c;
+  border-radius: 9999px;
+}
+
+.emotion-1[aria-checked=true] {
+  background-color: #07c;
+}
+
+.emotion-1:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px;
+}
+
+.emotion-0 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  margin-top: -1px;
+  margin-left: -1px;
+  width: 24px;
+  height: 24px;
+  border-radius: 9999px;
+  border: 1px solid;
+  border-color: #07c;
+  background-color: #fff;
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+}
+
+<button
+  className="emotion-1"
+  role="switch"
+  type="button"
+>
+  <div
+    aria-hidden={true}
+    className="emotion-0"
+    style={
+      Object {
+        "transform": "translateX(0)",
+      }
+    }
+  />
+</button>
+`;
