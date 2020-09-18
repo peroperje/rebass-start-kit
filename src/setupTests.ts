@@ -3,3 +3,8 @@
 // expect(element).toHaveTextContent(/react/i)
 // learn more: https://github.com/testing-library/jest-dom
 import '@testing-library/jest-dom/extend-expect';
+import * as emotion from "emotion";
+import { createSerializer } from "jest-emotion";
+
+// @ts-ignore
+expect.addSnapshotSerializer(createSerializer(emotion));
