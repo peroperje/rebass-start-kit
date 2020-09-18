@@ -1,4 +1,4 @@
-import * as rebass from "@rebass/forms";
+import * as rebass from '@rebass/forms';
 
 export type LabelProps = rebass.LabelProps;
 

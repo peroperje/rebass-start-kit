@@ -1,4 +1,4 @@
-import * as RBFrom from "@rebass/forms";
+import * as RBFrom from '@rebass/forms';
 
 export type InputProps = RBFrom.InputProps;
 

@@ -1,4 +1,4 @@
-import * as rebass from "rebass";
+import * as rebass from 'rebass';
 
 export type HeadingProps = rebass.HeadingProps;
 

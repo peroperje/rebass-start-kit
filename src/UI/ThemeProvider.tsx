@@ -1,14 +1,14 @@
-import React from "react";
-import { ThemeProvider as EmotionThemeProvider } from "emotion-theming";
+import React from 'react';
+import { ThemeProvider as EmotionThemeProvider } from 'emotion-theming';
 
-import theme from "./theme";
+import theme from './theme';
 
 export interface Props {
-  children: React.ReactNode;
+    children: React.ReactNode;
 }
 
 const ThemeProvider: React.FC<Props> = ({ children }: Props): JSX.Element => (
-  <EmotionThemeProvider theme={theme}>{children}</EmotionThemeProvider>
+    <EmotionThemeProvider theme={theme}>{children}</EmotionThemeProvider>
 );
 
 export default ThemeProvider;

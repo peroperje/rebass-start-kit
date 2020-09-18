@@ -1,4 +1,4 @@
-import * as RBForm from "@rebass/forms";
+import * as RBForm from '@rebass/forms';
 
 export type SelectProps = RBForm.SelectProps;
 const Select = RBForm.Select;

@@ -1,5 +1,5 @@
-import React from "react";
-import * as rebass from "rebass";
+import React from 'react';
+import * as rebass from 'rebass';
 
 export type BoxProps = rebass.BoxProps;
 
