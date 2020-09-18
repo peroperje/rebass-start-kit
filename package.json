@@ -52,6 +52,18 @@
     ]
   },
   "devDependencies": {
-    "jest-emotion": "^10.0.32"
-  }
+    "husky": "^4.3.0",
+    "jest-emotion": "^10.0.32",
+    "lint-staged": "^10.4.0",
+    "prettier": "^2.1.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": "prettier --write"
+  },
+  "proxy": "http://127.0.0.1"
 }
