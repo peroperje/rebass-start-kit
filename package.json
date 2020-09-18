@@ -34,7 +34,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "ui": "styleguidist server",
+    "ui:build": "styleguidist build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -55,7 +57,8 @@
     "husky": "^4.3.0",
     "jest-emotion": "^10.0.32",
     "lint-staged": "^10.4.0",
-    "prettier": "^2.1.2"
+    "prettier": "^2.1.2",
+    "react-styleguidist": "^11.1.0"
   },
   "husky": {
     "hooks": {
